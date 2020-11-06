@@ -6,13 +6,12 @@
 }
 
 .planet {
-  width: 100%;
   height: 100vh;
   color: #000;
   background-position: center;
   background-size: contain;
   box-shadow: 3px 3px rgba(0,0,0,0.2);
-  margin: 50px;
+  margin: 30px;
 }
 
 .name {
@@ -28,11 +27,12 @@
 
 #terra {
   background-image: url(img/terra.jpeg);
-
 }
+
 #marte {
   background-image: url(img/marte.jpg);
 }
+
 #plutone {
   background-image: url(img/plutone.jpg);
 }
