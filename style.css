@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.planet {
+  width: 100%;
+  height: 100vh;
+  border-bottom: 2px solid white;
+  color: #000;
+  background-position: center;
+  background-size: contain;
+  box-shadow: 5px 5px rgba(0,0,0,0.3);
+}
+
+.name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255,255,255,0.6);
+  font-size: 30px;
+  padding: 10px;
+  text-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+
+#terra {
+  background-image: url(img/terra.jpeg);
+}
+#marte {
+  background-image: url(img/marte.jpg);
+}
+#plutone {
+  background-image: url(img/plutone.jpg);
+}
